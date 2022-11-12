@@ -505,6 +505,10 @@ strong {
   top: 50px;
 }
 
+hehe{
+  object-fit:fill;
+}
+
 .video-wrap {
   z-index: -100;
 }
