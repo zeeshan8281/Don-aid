@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container p-0">
+      <div class="card px-4">
+        <p class="h8 py-3">Welcome</p>
+        <div class="row gx-3">
+          <div class="col-12">
+            <div class="d-flex flex-column">
+              <p class="text mb-1">Person Name</p>
+              <input
+                class="form-control mb-3"
+                type="text"
+                placeholder="Name"
+                value="Eg: Barry Allen"
+              />
+            </div>
+          </div>
+        
+        <!-- <div class="options-1">
+              <button class="addtext" type="button">
+                View transaction History
+              </button>
+              <div class="options-2">
+                <button class="addtext" type="button">Donate</button>
+              </div>
+            </div>-->
+       
+          <button class="history-view">View transaction history</button>
+          <button class="donation-proceed">Donate</button>
+          
+      </div>
+
+      <style>
+        .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.history-view{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.history-view:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.donation-proceed {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.donation-proceed:hover {
+  background-color: #008CBA;
+  color: white;
+}
+      </style>
+    </div>
+  </body>
+</html>
