@@ -1,80 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container p-0">
-      <div class="card px-4">
-        <p class="h8 py-3">Welcome</p>
-        <div class="row gx-3">
-          <div class="col-12">
-            <div class="d-flex flex-column">
-              <p class="text mb-1">Person Name</p>
-              <input
-                class="form-control mb-3"
-                type="text"
-                placeholder="Name"
-                value="Eg: Barry Allen"
-              />
-            </div>
-          </div>
-        
-        <!-- <div class="options-1">
-              <button class="addtext" type="button">
-                View transaction History
-              </button>
-              <div class="options-2">
-                <button class="addtext" type="button">Donate</button>
-              </div>
-            </div>-->
-       
-         <a href="../Transaction-history.html"> <button class="history-view">View transaction history</button></div><a>
-         <a href="../payment.html" <button class="donation-proceed">Donate</button> </a>
-          
-      </div>
 
-      <style>
-        .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Website</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+	</head>
 
-.history-view{
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
+	<body>
+   
 
-.history-view:hover {
-  background-color: #4CAF50;
-  color: white;
-}
+		<div class="container">
+			<form action="" class="m-auto" style="max-width:600px">
+				<h3 class="my-4">Account ID</h3>
+				<hr class="my-4" />
+				<div class="form-group mb-3 row"><label for="your-hash2" class="col-md-5-col-form-label">Your Wallet Address
+          </label>
+					<div class="col-md-7"><input type="text" class="form-control form-control-lg" id="your-hash2" name="your-hash" required></div>
+				</div>
+				<hr class="bg-transparent border-0 py-1" />
+				<hr class="my-4" />
+				<div class="form-group mb-3 row"><label for="submit5" class="col-md-5 col-form-label"></label>
+					<div class = "hehe"><button class="btn btn-primary btn-lg align-center" type="submit">Transaction History</button>
+          <button class="btn btn-primary btn-lg" type="submit">Donate</button></div>
+				</div>
+        <style>
+          .hehe{ 
+               
+               display: inline-block; 
+               justify-content: center;
+               align-items: center;
+               
+           }
+           body{
+            background-color: #273053;
+           }
+           .my-4{
+            color: white;
+           }
+           .col-md-5-col-form-label{
+            font-size: large;
+            color: white !important;
+           }
 
-.donation-proceed {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
-}
+         
+        </style>
+			</form>
+		</div>
+	</body>
 
-.donation-proceed:hover {
-  background-color: #008CBA;
-  color: white;
-}
-      </style>
-    </div>
-  </body>
 </html>
