@@ -138,5 +138,5 @@ provider.send("eth_requestAccounts", []).then(() => {
   
   async function donate() {
     const charityId = document.getElementById("charityId").value;
-
+    
   }
