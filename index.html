@@ -522,18 +522,28 @@
                 </div>
             </div>
         </footer>
+        <button onclick="connectToMetaMask()">Connect to wallet</button>
+        <button onclick="set_Requirement()">Ask charity</button>
+
 
         <!-- JAVASCRIPT FILES -->
+        <script
+  src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+  type="application/javascript">
+</script>
+        <script src="js/index.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
-        <script src="js/index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-        <script
-  src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
-  type="application/javascript"
-></script>
+<script>
+//    async function connectToMetaMask() {
+//         console.log("function is called")
+//         if(window.ethereum)
+//     await ethereum.request({ method: 'eth_requestAccounts' });
+// }
+</script>
     </body>
 </html>
